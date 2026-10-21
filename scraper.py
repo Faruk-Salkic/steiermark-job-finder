@@ -19,14 +19,17 @@ HEADERS = {
 }
 
 def fetch_karriere_jobs():
-    """Dohvata poslove sa karriere.at za Trieben, Rottenmann, Liezen i Remote"""
+    """Dohvata poslove sa karriere.at za Trieben, Rottenmann, Liezen, Leoben, Schladming i okolinu"""
     urls = [
         ("Trieben", "https://www.karriere.at/jobs/trieben"),
-        ("Rottenmann", "https://www.karriere.at/jobs/rottenmann"),
+        ("Rottenmann (~10km)", "https://www.karriere.at/jobs/rottenmann"),
         ("Liezen Administration", "https://www.karriere.at/jobs/administration/liezen-bezirk"),
         ("Liezen Büro", "https://www.karriere.at/jobs/buero/liezen-bezirk"),
         ("Liezen Sales Assistenz", "https://www.karriere.at/jobs/sales-assistenz/liezen-bezirk"),
-        ("Remote Österreich", "https://www.karriere.at/jobs?homeOffice=1&what=Administration")
+        ("Admont (~25km)", "https://www.karriere.at/jobs/admont"),
+        ("Kalwang (~18km)", "https://www.karriere.at/jobs/kalwang"),
+        ("Leoben Bezirk Administration", "https://www.karriere.at/jobs/administration/leoben-bezirk"),
+        ("Schladming", "https://www.karriere.at/jobs/schladming")
     ]
     
     collected = []
@@ -58,16 +61,32 @@ def fetch_karriere_jobs():
                         "url": full_link
                     })
         except Exception as e:
-            print(f"Info: Preskacem {url} ({e})")
+            # Preskoci tiho ako grad nema trenutno direktnu stranicu
+            pass
             
     return collected
 
 def fetch_google_job_rss():
-    """Dohvata najnovije poslove sa Google RSS (Willhaben, AMS, Leihfirme, itd.)"""
+    """Dohvata najnovije poslove sa Google RSS (Willhaben, AMS, Steirerjobs, Leihfirme, itd.)"""
     queries = [
-        'site:willhaben.at/jobs ("Liezen" OR "Trieben" OR "Rottenmann")',
-        '("Liezen" OR "Trieben" OR "Rottenmann") ("Büro" OR "Administration" OR "Assistent" OR "Sachbearbeiter" OR "Backoffice") job',
-        'Österreich ("Home Office" OR "Remote") ("Customer Service" OR "Backoffice" OR "Sachbearbeiter" OR "Administration" OR "Französisch") job'
+        # 1. Willhaben & Steirerjobs Liezen / Trieben / Rottenmann
+        'site:willhaben.at/jobs ("Liezen" OR "Trieben" OR "Rottenmann" OR "Kalwang" OR "Admont")',
+        'site:steirerjobs.at ("Liezen" OR "Trieben" OR "Rottenmann" OR "Leoben")',
+        
+        # 2. AMS Österreich (eJob-Room)
+        'site:ams.at ("Liezen" OR "Trieben" OR "Rottenmann") (Büro OR Administration OR Assistent OR Sachbearbeiter)',
+        
+        # 3. Leihfirme u Štajerskoj (Trenkwalder, Adecco, Powerserv, Hofmann, TTI, Manpower, Transfer)
+        '("Liezen" OR "Trieben" OR "Rottenmann" OR "Leoben") ("Trenkwalder" OR "Adecco" OR "Powerserv" OR "Hofmann Personal" OR "TTI" OR "Manpower" OR "Transfer Personal") (Büro OR Administration OR Assistent OR Sachbearbeiter OR Empfang OR Kundenservice)',
+        
+        # 4. Opšti regionalni oglasi za uredske poslove
+        '("Liezen" OR "Trieben" OR "Rottenmann" OR "Selzthal" OR "Admont") ("Büro" OR "Administration" OR "Assistent" OR "Sachbearbeiter" OR "Backoffice" OR "Vertriebsinnendienst") job',
+        
+        # 5. Remote / Home Office poslovi širom Austrije (posebno višejezični)
+        'Österreich ("Home Office" OR "Remote" OR "Télétravail") ("Customer Support" OR "Kundenservice" OR "Backoffice" OR "Sachbearbeiter" OR "Administration" OR "Französisch" OR "French" OR "Sales Assistant") job',
+        
+        # 6. MetaJob & StepStone za Obersteiermark
+        'site:metajob.at ("Liezen" OR "Trieben" OR "Rottenmann") (Büro OR Administration OR Assistent)'
     ]
     
     collected = []
@@ -79,7 +98,7 @@ def fetch_google_job_rss():
             req = urllib.request.Request(url, headers=HEADERS)
             with urllib.request.urlopen(req, timeout=12) as response:
                 root = ET.fromstring(response.read())
-                for item in root.findall(".//item")[:10]:
+                for item in root.findall(".//item")[:15]:
                     title = item.find("title").text if item.find("title") is not None else ""
                     link = item.find("link").text if item.find("link") is not None else ""
                     pub_date = item.find("pubDate").text if item.find("pubDate") is not None else ""
@@ -89,25 +108,25 @@ def fetch_google_job_rss():
                     seen_urls.add(link)
                     
                     collected.append({
-                        "source": "Google/Willhaben/Web",
+                        "source": "Google/Willhaben/AMS/Leihfirmen",
                         "category_label": "Regional/RSS",
                         "title": title.strip(),
                         "url": link,
                         "published": pub_date
                     })
         except Exception as e:
-            print(f"Info: Preskacem RSS za {q} ({e})")
+            pass
             
     return collected
 
 def get_all_raw_jobs():
-    print("Prikupljam poslove sa karriere.at...")
+    print("Prikupljam poslove sa karriere.at (Trieben, Rottenmann, Liezen, Leoben, Schladming)...")
     karriere_jobs = fetch_karriere_jobs()
     print(f"Pronadjeno na karriere.at: {len(karriere_jobs)}")
     
-    print("Prikupljam poslove sa Google/Willhaben RSS...")
+    print("Prikupljam poslove sa Willhaben, AMS, Steirerjobs, Leihfirmen i Remote...")
     rss_jobs = fetch_google_job_rss()
-    print(f"Pronadjeno na RSS: {len(rss_jobs)}")
+    print(f"Pronadjeno na agregatorima i Leihfirmama: {len(rss_jobs)}")
     
     all_jobs = karriere_jobs + rss_jobs
     print(f"Ukupno prikupljeno sirovih oglasa: {len(all_jobs)}")
