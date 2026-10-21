@@ -1,0 +1,37 @@
+name: Daily Steiermark Job Radar to Telegram & Dashboard
+
+on:
+  schedule:
+    # Svako jutro u 05:15 UTC (tačno 07:15 po našem vremenu - dok je PC ugašen)
+    - cron: '15 5 * * *'
+  workflow_dispatch: # Mogućnost ručnog pokretanja na dugme bilo kada
+
+permissions:
+  contents: write
+
+jobs:
+  run-daily-job-radar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run Job Radar Pipeline
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          DASHBOARD_URL: "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"
+        run: python main.py
+
+      - name: Commit and Push Updated Job Data to GitHub Pages
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+          git add docs/data.json
+          git diff --staged --quiet || (git commit -m "Update daily job radar data [skip ci]" && git push)
