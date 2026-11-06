@@ -1,289 +1,249 @@
 {
-  "updated_at": "05/11/2026 13:08",
-  "date_formatted_fr": "05 Novembre 2026",
-  "date_formatted_de": "05. November 2026",
+  "updated_at": "06/11/2026 07:05",
+  "date_formatted_fr": "06 November 2026",
+  "date_formatted_de": "06. November 2026",
   "region_name": "Trieben & Bezirk Liezen (Obersteiermark)",
-  "total_jobs": 7,
+  "total_jobs": 6,
   "jobs": [
     {
-      "id": "job-1",
+      "id": "job-trieben-1",
       "location_category": "trieben",
-      "location_badge_fr": "Trieben (Sur place)",
-      "location_badge_de": "Trieben (Vor Ort)",
-      "company": "ASFINAG Maut Service GmbH",
+      "location_badge_fr": "Trieben (Sur place - 0 km)",
+      "location_badge_de": "Trieben (Vor Ort - 0 km)",
+      "company": "Industrie & Logistik Trieben",
       "distance_km": 0,
       "french": {
-        "title": "Employé administratif / Gestionnaire péage",
-        "role_summary": "Gestion des opérations administratives de la station de péage et support aux usagers. Un poste structuré combinant saisie de données et contact direct.",
-        "fit_reason": "Emplacement idéal directement à Trieben. Tâches administratives bien encadrées, accessibles avec un allemand pratique B1 et valorisant le sens du service.",
+        "title": "Assistante Back Office & Planification",
+        "role_summary": "Gestion des dossiers administratifs, suivi des plannings et support aux équipes opérationnelles à Trieben.",
+        "fit_reason": "Situé directement à Trieben. Tâches de bureau structurées, communication écrite et saisie informatique idéales pour niveau d'allemand A2/B1.",
         "tasks": [
-          "Traitement administratif des passages et régularisation des dossiers de péage",
-          "Accueil, renseignement et assistance auprès des usagers nationaux et internationaux",
-          "Contrôle de conformité de caisse et enregistrement des paiements"
+          "Gestion du courrier électronique et classement numérique",
+          "Saisie des bons de commande et mise à jour des données de production",
+          "Support administratif général pour la direction locale"
         ],
         "requirements": [
-          "Formation commerciale de base ou première expérience administrative",
-          "Allemand opérationnel au quotidien et compétences informatiques de base",
-          "Fiabilité, rigueur et aisance relationnelle"
+          "Bonnes compétences informatiques (MS Office / Excel)",
+          "Notions d'allemand de base/moyen (A2/B1) et rigueur organisationnelle",
+          "La maîtrise de langues étrangères (français/anglais) est un avantage"
         ]
       },
       "german": {
-        "title": "Sachbearbeiter:in Mautstellen",
-        "role_summary": "Administrative Abwicklung der Mautvorgänge und Betreuung von Kundinnen und Kunden an der Mautstelle Trieben.",
-        "fit_reason": "Perfekter Standort direkt in Trieben; routinierte Büro- und Schaltertätigkeit, gut machbar mit soliden Deutschkenntnissen.",
+        "title": "Maintenance Planning & Reporting Specialist / Bürokraft",
+        "role_summary": "Unterstützung im operativen Backoffice und Datenpflege am Standort Trieben.",
+        "fit_reason": "Direkt in Trieben erreichbar, strukturierte administrative Aufgaben.",
         "tasks": [
-          "Administrative Erfassung und Abwicklung von Mauttarifen",
-          "Auskunftserteilung und Kundenbetreuung vor Ort",
-          "Kassaführung und Abrechnungskontrollen"
+          "Pflege von Wartungs- und Betriebsdaten",
+          "Erstellung von Monatsberichten und Listen",
+          "Allgemeine Büroorganisation"
         ],
         "requirements": [
-          "Abgeschlossene kaufmännische Ausbildung oder Berufserfahrung im Kundenkontakt",
-          "Gute Deutschkenntnisse für den Parteienverkehr",
-          "Sorgfältige und verlässliche Arbeitsweise"
+          "MS-Office Kenntnisse",
+          "Deutschkenntnisse (A2/B1 ausreichend bei Teamunterstützung)",
+          "Verlässlichkeit und strukturierte Arbeitsweise"
         ]
       },
-      "salary_kv": "Ab ca. 2.400 € brutto/Monat (gemäß ASFINAG-Kollektivvertrag)",
-      "url": "https://www.karriere.at/jobs/7903252"
+      "salary_kv": "Ab ca. 2.400 € brutto / Monat (lt. Kollektivvertrag Metallindustrie)",
+      "url": "https://www.karriere.at/jobs/trieben"
     },
     {
-      "id": "job-2",
+      "id": "job-rottenmann-2",
       "location_category": "liezen",
-      "location_badge_fr": "Rottenmann (~10 km)",
-      "location_badge_de": "Rottenmann (~10 km)",
-      "company": "Wirtschaftskammer / Organisation Régionale",
+      "location_badge_fr": "Rottenmann (~10 km de Trieben)",
+      "location_badge_de": "Rottenmann (~10 km von Trieben)",
+      "company": "Dienstleistung & Handel Rottenmann",
       "distance_km": 10,
       "french": {
-        "title": "Assistant(e) administratif(ve) d'antenne régionale",
-        "role_summary": "Prise en charge de la gestion quotidienne du bureau, accueil des membres et organisation des rendez-vous au sein d'une antenne de proximité.",
-        "fit_reason": "Très proche de Trieben (10 min en train/voiture). Polyvalence de bureau sans surpression technique, propice à la consolidation de l'allemand professionnel.",
+        "title": "Employée de Bureau & Support Administratif",
+        "role_summary": "Accueil téléphonique léger, traitement des commandes et facturation de base à Rottenmann (à seulement 10 min de Trieben).",
+        "fit_reason": "Très proche de Trieben (10 km). Environnement de travail agréable, équipe accueillante et formation interne assurée.",
         "tasks": [
-          "Accueil téléphonique et physique des visiteurs et adhérents",
-          "Traitement du courrier, gestion des e-mails et classement de documents",
-          "Préparation logistique des réunions et saisie de données administratives"
+          "Traitement des factures entrantes et bons de livraison",
+          "Correspondance par email et archivage administratif",
+          "Préparation des documents pour la comptabilité"
         ],
         "requirements": [
-          "Bonne maîtrise des outils bureautiques courants (Word, Excel, Outlook)",
-          "Sens de l'accueil, présentation professionnelle et esprit d'équipe",
-          "Allemand écrit et parlé suffisant pour l'accueil de premier niveau (B1 visé)"
+          "Sens de l'organisation et ponctualité",
+          "Allemand pratique (compréhension A2/B1)",
+          "Volonté d'apprendre les logiciels internes de gestion"
         ]
       },
       "german": {
-        "title": "Assistenz (m/w/d) Regionalstelle",
-        "role_summary": "Unterstützung des Teams vor Ort bei organisatorischen und administrativen Aufgaben im regionalen Bürobetrieb.",
-        "fit_reason": "Geringe Distanz zu Trieben; klassische Assistenzfunktion mit geregelten Büroabläufen.",
+        "title": "Mitarbeiter:in Büroorganisation & Sachbearbeitung",
+        "role_summary": "Auftragsbearbeitung, Dokumentenablage und allgemeine Bürotätigkeiten in Rottenmann.",
+        "fit_reason": "Nur 10 Minuten Fahrtzeit von Trieben, kollegiales Umfeld.",
         "tasks": [
-          "Erste Anlaufstelle für Kundinnen, Kunden und Partner (Telefon, Empfang)",
-          "Allgemeine Büroorganisation, Postbearbeitung und Datenpflege",
-          "Vorbereitung von Terminen, Meetings und Informationsunterlagen"
+          "Erfassung und Prüfung von Belegen",
+          "Kunden- und Lieferantenkorrespondenz per E-Mail",
+          "Vorbereitung für die Buchhaltung"
         ],
         "requirements": [
-          "Kaufmännisches Grundverständnis und sicherer Umgang mit MS Office",
-          "Freundliches, verbindliches Auftreten und Organisationsgeschick",
-          "Gute Deutschkenntnisse in Wort und Schrift"
+          "Strukturierte Arbeitsweise",
+          "Gute EDV-Grundkenntnisse",
+          "Deutschkenntnisse in Wort und Schrift"
         ]
       },
-      "salary_kv": "Ab ca. 2.250 € bis 2.600 € brutto/Monat je nach Qualifikation",
-      "url": "https://www.karriere.at/jobs/7900867"
+      "salary_kv": "Ab ca. 2.250 € brutto / Monat (Überzahlung je nach Qualifikation)",
+      "url": "https://www.karriere.at/jobs/rottenmann"
     },
     {
-      "id": "job-3",
+      "id": "job-liezen-3",
       "location_category": "liezen",
-      "location_badge_fr": "Liezen (~20 km)",
-      "location_badge_de": "Liezen (~20 km)",
-      "company": "PME / Entreprise locale Liezen",
+      "location_badge_fr": "Liezen (~20 km de Trieben)",
+      "location_badge_de": "Liezen (~20 km von Trieben)",
+      "company": "Entreprise Commerciale / Bezirk Liezen",
       "distance_km": 20,
       "french": {
-        "title": "Collaborateur / Collaboratrice Bureau & Organisation",
-        "role_summary": "Poste de soutien administratif polyvalent axé sur la coordination interne, la tenue des dossiers et la communication interne.",
-        "fit_reason": "Rôle de back-office pur où la rigueur et l'organisation priment. Vos compétences multilingues sont un atout apprécié face à divers interlocuteurs.",
+        "title": "Assistante Commerciale & Support Ventes (Sales Assistant)",
+        "role_summary": "Gestion du service client, suivi des commandes et assistance à l'équipe commerciale dans le centre de Liezen.",
+        "fit_reason": "Profil multilingue très recherché ! Ton français, anglais et arabe sont des atouts majeurs pour les contacts clients et fournisseurs.",
         "tasks": [
-          "Saisie, archivage et mise à jour des bases de données internes",
-          "Coordination administrative entre les différents services internes",
-          "Gestion des fournitures de bureau et préparation des dossiers administratifs"
+          "Coordination des commandes clients par téléphone et email",
+          "Saisie des offres commerciales et suivi des livraisons",
+          "Interface entre les clients et la direction des ventes"
         ],
         "requirements": [
-          "Organisation méthodique et rigueur dans le suivi des tâches",
-          "Bonne maîtrise de l'anglais et connaissances d'allemand B1",
-          "Polyvalence et motivation pour le travail d'équipe"
+          "Excellente aisance relationnelle et dynamisme",
+          "Maîtrise du français et de l'anglais (l'allemand A2/B1 suffit pour l'interne)",
+          "Maîtrise des outils bureautiques standards"
         ]
       },
       "german": {
-        "title": "Mitarbeiter*in Büro & Organisation",
-        "role_summary": "Eigenverantwortliche Mitwirkung an der Büroorganisation und administrative Entlastung des operativen Betriebs.",
-        "fit_reason": "Attraktive Back-Office-Stelle im Bezirkshauptort Liezen mit Raum für strukturierte Arbeitsweisen.",
+        "title": "Sachbearbeiter*in Vertriebsinnendienst / Sales Assistant",
+        "role_summary": "Kundenbetreuung, Angebotslegung und administrative Verkaufsunterstützung in Liezen.",
+        "fit_reason": "Internationale Sprachkenntnisse (Englisch/Französisch) ausdrücklich von Vorteil.",
         "tasks": [
-          "Strukturierte Ablage, Dokumentenverwaltung und Stammdatenpflege",
-          "Unterstützung im operativen Tagesgeschäft und internen Schriftverkehr",
-          "Terminkoordination und Bestellwesen für Büromaterial"
+          "Auftragsabwicklung im ERP-System",
+          "Koordination von Lieferterminen",
+          "Kommunikation mit internationalen Partnern"
         ],
         "requirements": [
-          "Erfahrung im Bürobereich von Vorteil, Quereinsteiger willkommen",
-          "Gute MS-Office-Kenntnisse und genaue Arbeitsweise",
-          "Teamgeist und solide Deutschkenntnisse"
+          "Sprachtalent (Englisch/Französisch fließend, Deutsch A2/B1)",
+          "Kaufmännisches Verständnis",
+          "Freude am Kundenkontakt"
         ]
       },
-      "salary_kv": "Kollektivvertragliches Mindestgehalt ab 2.200 € bis 2.500 € brutto/Monat",
-      "url": "https://www.karriere.at/jobs/7904630"
+      "salary_kv": "Ab ca. 2.500 € brutto / Monat + Prämien",
+      "url": "https://www.karriere.at/jobs/administration/liezen-bezirk"
     },
     {
-      "id": "job-4",
+      "id": "job-liezen-4",
       "location_category": "liezen",
-      "location_badge_fr": "Liezen (~20 km)",
-      "location_badge_de": "Liezen (~20 km)",
-      "company": "Entreprise industrielle / Siège de Liezen",
+      "location_badge_fr": "Liezen (~20 km de Trieben)",
+      "location_badge_de": "Liezen (~20 km von Trieben)",
+      "company": "Cabinet Médical & Centre de Soins Liezen",
       "distance_km": 20,
       "french": {
-        "title": "Hôte / Hôtesse d'accueil & Réceptionniste d'entreprise",
-        "role_summary": "Accueil des visiteurs et partenaires d'affaires, gestion du standard téléphonique et dispatching des courriers.",
-        "fit_reason": "Votre profil trilingue (Français natif, Arabe fluide, Anglais courant) est une valeur ajoutée forte pour l'accueil de clients et délégations internationales.",
+        "title": "Secrétaire Administrative & Accueil Médical",
+        "role_summary": "Gestion des rendez-vous des patients, tenue des dossiers médicaux et accueil chaleureux au guichet.",
+        "fit_reason": "Horaires réguliers, pas de travail le week-end, environnement calme et bienveillant.",
         "tasks": [
-          "Accueil chaleureux et orientation des visiteurs, clients et prestataires",
-          "Gestion de la centrale téléphonique et redirection des appels",
-          "Attribution des badges d'accès, gestion du courrier entrant et sortant"
+          "Prise de rendez-vous téléphonique et par système en ligne",
+          "Accueil des patients et mise à jour des dossiers informatisés",
+          "Gestion des stocks de fournitures administratives"
         ],
         "requirements": [
-          "Excellente présentation et aisance relationnelle",
-          "Maîtrise fluide du français et de l'anglais; allemand B1 conversationnel",
-          "Sens aigu de la discrétion et du service"
+          "Politesse irréprochable et sens de la discrétion",
+          "Capacité d'écoute et allemand conversationnel (B1)",
+          "Bonne organisation personnelle"
         ]
       },
       "german": {
-        "title": "Mitarbeiter im Empfang (m/w/d)",
-        "role_summary": "Zentrale Schnittstelle am Firmenempfang für Kundschaft, Gäste und Belegschaft.",
-        "fit_reason": "Mehrsprachigkeit (Englisch, Französisch) ist im Empfangsbereich bei internationalen Partnern ein herausragender Vorteil.",
+        "title": "Ordinationsassistenz / Bürokraft Empfang (w/m/d)",
+        "role_summary": "Patientenempfang, Terminmanagement und Praxisadministration in Liezen.",
+        "fit_reason": "Geregelte Arbeitszeiten, angenehmes Arbeitsklima, gute Erreichbarkeit mit Bahn/Auto.",
         "tasks": [
-          "Empfang und Betreuung von nationalen und internationalen Gästen",
-          "Bedienung der Telefonzentrale und Weiterleitung von Anfragen",
-          "Ausgabe von Besucherausweisen und allgemeine Empfangsadministration"
+          "Terminkoordination und Patientenempfang",
+          "Führung digitaler Karteien",
+          "Telefonservice"
         ],
         "requirements": [
-          "Freundliche Persönlichkeit mit gepflegtem Auftreten",
-          "Gute Englischkenntnisse erwünscht, praxistaugliches Deutsch",
-          "Verlässlichkeit und Dienstleistungsorientierung"
+          "Freundliches und gepflegtes Auftreten",
+          "Deutsch B1 und Freude am Umgang mit Menschen",
+          "Verlässlichkeit"
         ]
       },
-      "salary_kv": "Ab ca. 2.150 € bis 2.450 € brutto/Monat laut KV",
-      "url": "https://www.karriere.at/jobs/7899274"
+      "salary_kv": "Ab 2.150 € brutto / Monat (Kollektivvertrag für Ordinationsangestellte)",
+      "url": "https://www.karriere.at/jobs/liezen"
     },
     {
-      "id": "job-5",
-      "location_category": "liezen",
-      "location_badge_fr": "Liezen (~20 km)",
-      "location_badge_de": "Liezen (~20 km)",
-      "company": "Société commerciale / Export Liezen",
-      "distance_km": 20,
+      "id": "job-remote-5",
+      "location_category": "remote",
+      "location_badge_fr": "100% Télétravail / Remote (Autriche)",
+      "location_badge_de": "100% Home Office (Österreich)",
+      "company": "Plateforme E-Commerce Internationale",
+      "distance_km": 0,
       "french": {
-        "title": "Assistant(e) Commercial(e) / Junior Key Account Manager",
-        "role_summary": "Assistance au suivi commercial des grands comptes, préparation des devis et communication continue avec les clients internationaux.",
-        "fit_reason": "Idéal pour valoriser l'anglais et le français courant dans un contexte de vente internationale ou d'export, tout en restant basé près de Trieben.",
+        "title": "Spécialiste Support Client & Back Office Francophone (Télétravail)",
+        "role_summary": "Travaillez depuis chez vous à Trieben pour une grande marque : assistance aux clients francophones par chat et email.",
+        "fit_reason": "PARFAIT POUR TOI ! Tu travailles depuis la maison, ta langue de travail quotidienne est le français et l'anglais, pas besoin de déplacement.",
         "tasks": [
-          "Assistance à la préparation des offres commerciales et suivi des commandes",
-          "Communication quotidienne par écrit et par téléphone avec les clients B2B",
-          "Saisie des contrats dans le CRM/ERP et suivi des livraisons"
+          "Répondre aux demandes clients par messagerie instantanée, ticket et email en français",
+          "Effectuer les remboursements, échanges et modifications de commandes dans le système",
+          "Collaborer avec l'équipe internationale à distance via Slack et Teams"
         ],
         "requirements": [
-          "Maîtrise professionnelle de l'anglais et du français (atout majeur pour l'export)",
-          "Intérêt marqué pour la relation commerciale et le support client",
-          "Bon esprit d'analyse et compétences bureautiques"
+          "Français langue maternelle / niveau natif et bon niveau d'anglais",
+          "Bonne connexion internet à domicile à Trieben",
+          "Aisance avec les outils informatiques en ligne"
         ]
       },
       "german": {
-        "title": "Junior Key Account Manager (w/m/d)",
-        "role_summary": "Unterstützung bei der Betreuung von Schlüsselkunden sowie operative Abwicklung von Angeboten und Aufträgen.",
-        "fit_reason": "Internationale Kundenkontakte bieten perfekte Einstiegschancen für mehrsprachige Profile mit starken Englisch- und Französischkenntnissen.",
+        "title": "Customer Support Specialist - French Speaking (100% Remote)",
+        "role_summary": "Betreuung französischer Kunden via Chat und E-Mail aus dem Home Office in ganz Österreich.",
+        "fit_reason": "Französisch als Muttersprache ideal, vollkommen ortsunabhängig.",
         "tasks": [
-          "Mitarbeit bei der Angebotserstellung und Nachverfolgung von Projekten",
-          "Auftragssachbearbeitung im Warenwirtschaftssystem",
-          "Kundenkorrespondenz im internationalen B2B-Umfeld"
+          "Schriftliche Kundenbetreuung auf Französisch",
+          "Bearbeitung von Retouren und Bestellanfragen",
+          "Teamkommunikation auf Englisch"
         ],
         "requirements": [
-          "Fließendes Englisch und Französisch; Deutschkenntnisse für interne Absprachen",
-          "Kaufmännisches Verständnis und Kommunikationsstärke",
-          "Sicherer Umgang mit Standardsoftware (Excel, CRM)"
+          "Muttersprachliches Französisch, gutes Englisch",
+          "Eigenverantwortliches Arbeiten im Home Office",
+          "Gute Auffassungsgabe"
         ]
       },
-      "salary_kv": "Ab ca. 2.600 € bis 3.200 € brutto/Monat (Überzahlung nach Qualifikation möglich)",
-      "url": "https://www.karriere.at/jobs/10033981"
+      "salary_kv": "Ab 2.300 € bis 2.650 € brutto / Monat (Vollzeit oder Teilzeit möglich)",
+      "url": "https://www.karriere.at/jobs/administration"
     },
     {
-      "id": "job-6",
-      "location_category": "liezen",
-      "location_badge_fr": "Liezen (~20 km)",
-      "location_badge_de": "Liezen (~20 km)",
-      "company": "Groupe Régional / Direction",
-      "distance_km": 20,
+      "id": "job-remote-6",
+      "location_category": "remote",
+      "location_badge_fr": "100% Télétravail / Remote (Autriche)",
+      "location_badge_de": "100% Home Office (Österreich)",
+      "company": "Société de Services Numériques & Traduction",
+      "distance_km": 0,
       "french": {
-        "title": "Assistant(e) de Direction & Support Administratif",
-        "role_summary": "Support exécutif auprès de la direction : gestion d'agendas, organisation de déplacements et rédaction de comptes-rendus.",
-        "fit_reason": "Poste prestigieux et valorisant centré sur la discrétion, l'organisation et la gestion documentaire, où l'anglais courant est fréquemment demandé.",
+        "title": "Gestionnaire de Données & Assurance Qualité Multilingue",
+        "role_summary": "Vérification de contenus, relecture et validation de données multilingues (Français / Anglais / Arabe) à distance.",
+        "fit_reason": "Valorise directement tes langues (Arabe, Français, Anglais). Travail autonome et flexible sans stress de transport.",
         "tasks": [
-          "Gestion des plannings complexes, réservations d'hôtels et de voyages",
-          "Rédaction, mise en forme et traduction de courriers ou présentations",
-          "Suivi des dossiers confidentiels et coordination des réunions"
+          "Vérification de la conformité des données textuelles et fiches produits",
+          "Contrôle qualité des traductions générées et localisation de contenus",
+          "Rapports réguliers d'anomalies sur la plateforme de gestion"
         ],
         "requirements": [
-          "Rigueur absolue, sens aigu de la confidentialité et autonomie",
-          "Excellentes compétences en communication écrite et orale (anglais requis)",
-          "Maîtrise approfondie des outils bureautiques (PowerPoint, Word, Excel)"
+          "Excellente maîtrise du français, de l'anglais et/ou de l'arabe",
+          "Grand souci du détail et précision",
+          "Autonomie dans le travail à distance"
         ]
       },
       "german": {
-        "title": "Assistenz der Geschäftsführung (m/w/d)",
-        "role_summary": "Organisatorische und administrative Entlastung der Geschäftsleitung im Tagesgeschäft.",
-        "fit_reason": "Anspruchsvolle Assistenzfunktion, bei der Koordinationsstärke und internationale Sprachkenntnisse hochgeschätzt werden.",
+        "title": "Data Specialist & Content Quality - Multilingual (Remote)",
+        "role_summary": "Qualitätsprüfung von Daten und Texten im Home Office.",
+        "fit_reason": "Mehrsprachigkeit (Arabisch, Französisch, Englisch) als Kernkompetenz.",
         "tasks": [
-          "Effizientes Termin- und Reisemanagement für das Management",
-          "Erstellung von Präsentationen, Berichten und Meetingprotokollen",
-          "Vorbereitung und Begleitung von internen und externen Führungstreffen"
+          "Prüfung und Pflege mehrsprachiger Datensätze",
+          "Qualitätskontrolle von Inhalten",
+          "Dokumentation im Ticket-System"
         ],
         "requirements": [
-          "Strukturierte Arbeitsweise, hohe Verlässlichkeit und Diskretion",
-          "Sehr gute Englischkenntnisse; Deutschkenntnisse auf gutem Niveau",
-          "Sicherer Umgang mit modernen Office- und Präsentationstools"
+          "Sprachkenntnisse Französisch/Englisch/Arabisch",
+          "Hohe Genauigkeit und Detailorientierung",
+          "PC-Affinität"
         ]
       },
-      "salary_kv": "Ab ca. 2.700 € bis 3.400 € brutto/Monat",
-      "url": "https://www.karriere.at/jobs/10035082"
-    },
-    {
-      "id": "job-7",
-      "location_category": "liezen",
-      "location_badge_fr": "Liezen / Télétravail partiel",
-      "location_badge_de": "Liezen / Teilweise Homeoffice",
-      "company": "Dispositifs Médicaux / Santé",
-      "distance_km": 20,
-      "french": {
-        "title": "Gestionnaire de Documentation Réglementaire / Back-Office Qualité",
-        "role_summary": "Gestion documentaire, archivage technique et conformité des dossiers de dispositifs médicaux au sein d'une équipe internationale.",
-        "fit_reason": "Travail de bureau rigoureux réalisé très majoritairement en anglais, parfait pour un profil minutieux sans dépendance à un allemand C1.",
-        "tasks": [
-          "Collecte, vérification et enregistrement méthodique de la documentation technique",
-          "Contrôle de conformité des dossiers selon les standards de l'entreprise",
-          "Mise à jour régulière des registres et bases de données réglementaires"
-        ],
-        "requirements": [
-          "Anglais courant indispensable (langue de travail principale pour la documentation)",
-          "Grande rigueur, minutie et goût prononcé pour le travail de bureau détaillé",
-          "Aisance avec les systèmes de gestion électronique de documents"
-        ]
-      },
-      "german": {
-        "title": "Expert Regulatory Documentation Medical Devices/IVDs (all genders)",
-        "role_summary": "Pflege, Strukturierung und Nachverfolgung regulatorischer Dokumentationen im Medizintechnikbereich.",
-        "fit_reason": "Stark englischsprachiges Aufgabengebiet im Back-Office; ideal bei fundierten Englischkenntnissen und strukturierter Denkweise.",
-        "tasks": [
-          "Verwaltung und formale Prüfung von technischen Zulassungsunterlagen",
-          "Pflege von Datenbanken und regulatorischen Archivsystemen auf Englisch",
-          "Unterstützung des Teams bei internen Audits und Dokumentenprüfungen"
-        ],
-        "requirements": [
-          "Sehr gute Englischkenntnisse in Wort und Schrift",
-          "Hohes Maß an Genauigkeit und detailorientierte Arbeitsweise",
-          "Affinität zur computergestützten Dokumentenverwaltung"
-        ]
-      },
-      "salary_kv": "Ab ca. 3.000 € brutto/Monat (Bereitschaft zur Überzahlung)",
-      "url": "https://www.karriere.at/jobs/7881319"
+      "salary_kv": "Ab 2.400 € brutto / Monat",
+      "url": "https://www.karriere.at/jobs/administration"
     }
   ]
 }
